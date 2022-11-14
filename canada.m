@@ -1,12 +1,9 @@
-% Devoir #1 ECN 6238 Macroéconmétrie
-%  Hiver 2022
-% Collins Rostant, Université de Montréal
-
+%% Matlab coding for canadian gdp analysis
 clear all % efface toutes les variables en mémoire
 
 diary 2022.out % sauvegarde résultats dans un fichier
 
-% lecture des données
+% read the data
 
 starts= xlsread('devoir1.xlsx','c1:c243');
 
